@@ -11,7 +11,8 @@ h2 {
 
 body {
     background-color: bisque;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(kepek/pngwing.com.png)
 }
 
 img {
@@ -30,6 +31,7 @@ p {
     margin: auto;
     grid-template-columns: 1fr 1fr;
     background-color: lightsalmon;
+    background-image: url(kepek/pngwing.com.png)
 }
 
 div {
@@ -52,11 +54,17 @@ nav {
     margin: auto;
     grid-template-columns: 1fr 1fr;
     margin: 50px;
-    padding: 1px
+    padding: 1px;
+    background-image: url(kepek/pngwing.com.png)
 }
 
 #linkek div {
     margin: 30px 50px 30px 50px
+}
+
+a:hover {
+    background-color: chocolate;
+    font-size: 150%
 }
 
 @media screen and (max-width: 1280px) {
