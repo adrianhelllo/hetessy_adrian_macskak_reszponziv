@@ -47,14 +47,40 @@ nav {
 
 #linkek {
     border: 10px solid black;
+    background-color: lightsalmon;
     display: grid;
     margin: auto;
     grid-template-columns: 1fr 1fr;
-    margin: 100px;
+    margin: 50px;
+    padding: 1px
+}
+
+#linkek div {
+    margin: 30px 50px 30px 50px
 }
 
 @media screen and (max-width: 1280px) {
     .tarolo {
         grid-template-columns: 1fr
     }  
+
+    #linkek {
+        font-size: 30px
+    }
 }
+
+@media screen and (max-width: 1060px) {
+    #linkek {
+        grid-template-columns: 1fr;
+    }  
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    body, p {
+        font-size: calc(1.1em + 1vw)
+    }  
+}
+
